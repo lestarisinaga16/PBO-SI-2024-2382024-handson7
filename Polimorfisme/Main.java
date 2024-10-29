@@ -8,7 +8,13 @@ public class Main {
         System.out.println("Keliling persegi : " + bangunDatar.keliling());
 
         //Lingkaran
+        bangunDatar = new Lingkaran(6);
+        System.out.println("Luas lingkaran : " + bangunDatar.luas());
+        System.out.println("Keliling lingkaran : " + bangunDatar.keliling());
 
         //Segitiga sama sisi
+        bangunDatar = new SegitigaSamaSisi(5);
+        System.out.println("Luas segitiga sama Sisi : " + bangunDatar);
+        System.out.println("Keliling segitiga sama sisi : " + bangunDatar);
     }
 }
