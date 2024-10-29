@@ -1,7 +1,7 @@
 package Polimorfisme;
 
 public class BangunDatar {
-    public double luas(double x){
+    public double luas(){
         System.out.println();
         return 0;
     }
